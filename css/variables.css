@@ -1,0 +1,26 @@
+:root {
+  --docs-primary-light: #8324ab;
+  --docs-primary-dark: #d4b797;
+  --docs-dark: #8324ab;
+
+  --docs-note-text: var(--docs-black) !important;
+  --docs-note-bg: #d4b797 !important;
+  --docs-code-bg: #d4b797;
+  --docs-pre-bg: #17051B;
+}
+
+:root[data-theme="dark"] {
+  --docs-code-bg: #401D29;
+  --docs-pre-bg: #0A070F;
+  --docs-note-text: var(--docs-white) !important;
+  --docs-note-bg: var(--docs-pre-bg) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --docs-code-bg: #401D29;
+    --docs-pre-bg: #0A070F;
+    --docs-note-text: var(--docs-white) !important;
+    --docs-note-bg: var(--docs-pre-bg) !important;
+  }
+}
