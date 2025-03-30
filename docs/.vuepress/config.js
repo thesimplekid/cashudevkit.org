@@ -42,17 +42,8 @@ const tutorialSidebar = [
   }
 ]
 
-const blogSidebar = [
-  {
-    title: 'Blog',
-    collapsable: false,
-    children: [
-      ['/blog/', 'Articles'],
-      ['/blog/tags/', 'Tags'],
-      ['/blog/author/', 'Authors']
-    ]
-  }
-]
+// Blog will be added later
+const blogSidebar = []
 
 module.exports = {
   title,
@@ -64,32 +55,9 @@ module.exports = {
     themeColor,
     tags: ['Bitcoin', 'ecash', 'cdk', 'Cashu Dev Kit', 'Documentation', 'cashu']
   }),
-  plugins: [
-    [
-      '@vuepress/blog',
-      {
-        directories: [
-          {
-            id: 'blog',
-            dirname: '_blog',
-            path: '/blog/',
-          },
-        ],
-        frontmatters: [
-          {
-            id: 'tag',
-            keys: ['tag', 'tags'],
-            path: '/blog/tags/',
-          },
-          {
-            id: 'author',
-            keys: ['author', 'authors'],
-            path: '/blog/author/',
-          }
-        ]
-      },
-    ],
-  ],
+  // Blog plugin will be added later
+  plugins: [],
+
   themeConfig: {
     domain: baseUrl,
     logo: '/img/logo.svg',
@@ -121,10 +89,8 @@ module.exports = {
         text: 'Tutorials',
         link: '/tutorials/getting-started'
       },
-      {
-        text: 'Blog',
-        link: '/blog/'
-      },
+      // Blog will be added later
+
       {
         text: 'Matrix',
         link: matrixUrl,
