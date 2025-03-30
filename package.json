@@ -1,0 +1,39 @@
+{
+  "name": "cashudevkit.org",
+  "version": "0.0.1",
+  "description": "Cashu Dev Kit Documentation",
+  "author": "Cashu Dev Kit",
+  "license": "MIT",
+  "bugs": "https://github.com/thesimplekid/cashudevkit.org/issues",
+  "homepage": "https://cashudevkit.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesimplekid/cashudevkit.org.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "cashu",
+    "ecash",
+    "documentation"
+  ],
+  "config": {
+    "dist": "docs/.vuepress/dist",
+    "port": "8080",
+    "linkcheck": "blc -ro --filter-level 2 --requests 1 --exclude edit/main --exclude issues/new"
+  },
+  "scripts": {
+    "prestart": "rm -rf $npm_package_config_dist",
+    "start": "NODE_ENV=development vuepress dev docs -p $npm_package_config_port",
+    "build": "NODE_ENV=production vuepress build docs",
+    "linkcheck": "start-server-and-test linkcheck:serve $npm_package_config_port linkcheck:local",
+    "linkcheck:serve": "serve -p $npm_package_config_port $npm_package_config_dist",
+    "linkcheck:local": "$npm_package_config_linkcheck http://localhost:$npm_package_config_port"
+  },
+  "devDependencies": {
+    "@spiralbtc/vuepress-devkit-theme": "^0.5.0",
+    "broken-link-checker": "^0.6.7",
+    "serve": "^14.2.4",
+    "start-server-and-test": "^2.0.11",
+    "vuepress": "^1.8.3"
+  }
+}
