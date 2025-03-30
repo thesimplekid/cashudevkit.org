@@ -25,26 +25,26 @@ features:
 <div class="feature">
 <h3>Lightning Compatible</h3>
 
-Built to work with Lightning Network for funding and redemption. Cashu tokens can be funded via Lightning payments, combining the speed of Lightning with the privacy of ecash.
+Built to work with Lightning Network for funding and redemption. Cashu tokens can be funded via Lightning payments, combining the interoperability of Lightning with the privacy of ecash.
 
 </div>
 <div class="feature">
-<h3>Sans IO</h3>
+<h3>Lightweight</h3>
 
-The library is perfectly IO-agnostic—in fact, it does no IO. The primary goal of such design is to be easy to unit test. As a bonus, it can run almost anywhere.
+The library is designed to be minimal and efficient, focusing only on the core functionality needed for Cashu operations. This lean approach ensures better performance and easier integration across different platforms.
 
 </div>
 <div class="feature">
 <h3>Run Anywhere</h3>
 
-We don't force you to use any specific runtime. Use what you're already comfortable with. See [examples](/examples/) for a variety of reference implementations.
+Designed for flexibility, CDK can be integrated into various environments and platforms. See [examples](/examples/) for a variety of reference implementations.
 
 </div>
 
 <div class="feature">
-<h3>Multi-Language Support</h3>
+<h3>Modular Design</h3>
 
-We are building native APIs for Rust, Python, JavaScript, and other languages so you can build Cashu applications in your preferred programming language.
+Built with modularity in mind, CDK lets you use only the components you need. This approach simplifies development and makes it easier to extend or customize functionality for your specific use case.
 
 </div>
 </div>
