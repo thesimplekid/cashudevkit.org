@@ -1,28 +1,13 @@
-# Cashu Examples
+# CDK Examples
 
-Click the links below to explore real-world Cashu implementation examples.
+Here are several implementations that showcase the Cashu Development Kit's capabilities:
 
-## [Nutshell Wallet](https://github.com/cashubtc/nutshell)
+## [Mint Implementation](https://github.com/cashubtc/cdk/tree/main/crates/cdk-mintd)
+A reference implementation of a Cashu mint server built with the CDK. Demonstrates how to create a fully functioning Cashu mint supporting token issuance, redemption, and state management.
 
-Nutshell is an open-source Cashu wallet for iOS and Android built with React Native. It supports various Cashu mints and provides user-friendly token management. The wallet demonstrates how to implement Cashu in a mobile application context.
+## [cdk-cli](https://github.com/cashubtc/cdk/tree/main/crates/cdk-cli)
+A command-line interface for interacting with Cashu mints. Provides examples of client-side operations including token management, mint queries, and wallet functionality.
 
-## [Cashu Wallet](https://github.com/cashubtc/cashu-wallet)
-
-A simple Cashu wallet web application built with TypeScript. This example showcases how to integrate Cashu into a web application, including mint connections, token management, and Lightning integration for funding and redeeming tokens.
-
-## [Mint Implementation](https://github.com/cashubtc/cashu)
-
-The reference Cashu mint implementation written in Python. This example demonstrates all the server-side functionality required to operate a Cashu mint, including key management, blind signatures, Lightning Network integration, and token verification.
-
-## [Cashu CLI](https://github.com/cashubtc/cashu-cli)
-
-A command-line interface for interacting with Cashu tokens. This tool allows users to create, send, and receive Cashu tokens directly from the terminal. It's a good example of how to implement core Cashu functionality in a CLI application.
-
-## [Cashu Rust Library](https://github.com/thesimplekid/cashu-rs)
-
-A Rust implementation of the Cashu protocol, providing core functionality for building Cashu wallets and mints in Rust. This library demonstrates how to implement cryptographic operations, token serialization, and protocol handling in a type-safe language.
-
-## [Cashu-TS](https://github.com/cashubtc/cashu-ts)
-
-A TypeScript implementation of the Cashu protocol that provides libraries for building Cashu applications in JavaScript/TypeScript environments. The library includes tools for wallet functionality, mint communication, and token management.
+## [Athenut](https://github.com/thesimplekid/athenut-mint)
+An open-source Cashu mint implementation built on the CDK with additional features for production use. Shows how to extend the core CDK functionality with custom requirements.
 
