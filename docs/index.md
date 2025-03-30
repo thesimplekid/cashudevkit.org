@@ -1,9 +1,12 @@
 ---
 home: true
 heroText: Cashu Dev Kit
-tagline: Private and scalable Bitcoin ecash using Chaumian mints
+tagline: Private Bitcoin payments that are fast, simple, and secure
+description: Electronic cash for payments online, in person, and around the world.
 actionText: Get started
 actionLink: /introduction/
+secondaryActionText: GITHUB
+secondaryActionLink: https://github.com/cashubtc/cdk
 features:
 - title: "Private Ecash"
   details: "Cashu uses Chaumian blind signatures to create Bitcoin-backed ecash tokens that preserve privacy. Transactions are off-chain and don't reveal any information about the sender or recipient."
