@@ -1,6 +1,6 @@
-# CDK Examples
+# Adoption
 
-Here are several implementations that showcase the Cashu Development Kit's capabilities:
+Here are several implementations that showcase the Cashu Development Kit's capabilities in real-world applications:
 
 ## [Mint Implementation](https://github.com/cashubtc/cdk/tree/main/crates/cdk-mintd)
 A reference implementation of a Cashu mint server built with the CDK. Demonstrates how to create a fully functioning Cashu mint supporting token issuance, redemption, and state management.

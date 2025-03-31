@@ -20,7 +20,7 @@ const docsSidebar = [
           ['/introduction/use_cases', 'Use Cases'],
         ]
       },
-      '/examples',
+      '/adoption',
     ]
   },
   {
@@ -87,8 +87,8 @@ module.exports = {
         link: '/introduction/'
       },
       {
-        text: 'Examples',
-        link: '/examples/'
+        text: 'Adoption',
+        link: '/adoption/'
       },
       {
         text: 'Tutorials',
@@ -123,8 +123,8 @@ module.exports = {
               link: '/introduction/'
             },
             {
-              text: 'Examples',
-              link: '/examples/'
+              text: 'Adoption',
+              link: '/adoption/'
             }
           ]
         },
