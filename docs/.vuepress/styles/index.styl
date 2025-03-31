@@ -1,3 +1,8 @@
+/* Define mobile breakpoint if not already defined by theme */
+$MQNarrow ?= 959px
+$MQMobile ?= 719px
+$MQMobileNarrow ?= 419px
+
 /* For first feature only - replace the SVG with PNG */
 .features .feature:first-child svg {
   display: block !important;
@@ -74,5 +79,36 @@
 @media (min-width: $MQMobile + 1) {
   .navbar .logo {
     min-width: 125px !important;
+  }
+}
+
+/* Mobile navigation fixes */
+@media (max-width: $MQMobile) {
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .navbar .logo {
+    height: 35px !important;
+  }
+  
+  .navbar .site-name {
+    display: none;
+  }
+  
+  .navbar .links {
+    padding-left: 0.5rem;
+  }
+  
+  /* Improve dropdown menu on mobile */
+  .nav-dropdown {
+    right: 0;
+    left: auto !important;
+  }
+  
+  /* Fix mobile menu toggle button */
+  .sidebar-button {
+    padding: 0.6rem;
   }
 }
