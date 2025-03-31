@@ -87,6 +87,10 @@ module.exports = {
         link: '/introduction/'
       },
       {
+        text: 'Examples',
+        link: '/examples/'
+      },
+      {
         text: 'Tutorials',
         link: '/tutorials/getting-started'
       },
