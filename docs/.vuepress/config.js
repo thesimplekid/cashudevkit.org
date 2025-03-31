@@ -48,7 +48,7 @@ const blogSidebar = []
 
 module.exports = {
   title,
-  description: 'CDK is a cashu mint and wallet implementation.',
+  description: 'CDK is a cashu mint and Wallet implementation.',
   theme: resolve(__dirname, '../../node_modules/@spiralbtc/vuepress-devkit-theme'),
   ...themeConfig({
     baseUrl,
