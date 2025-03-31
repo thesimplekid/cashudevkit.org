@@ -84,30 +84,23 @@ module.exports = {
     nav: [
       {
         text: 'Docs',
-        link: '/introduction/',
-        ariaLabel: 'Documentation'
+        link: '/introduction/'
       },
       {
         text: 'Tutorials',
-        link: '/tutorials/getting-started',
-        ariaLabel: 'Tutorials'
+        link: '/tutorials/getting-started'
       },
       // Blog will be added later
+
       {
-        text: 'Community',
-        ariaLabel: 'Community Menu',
-        items: [
-          {
-            text: 'Matrix',
-            link: matrixUrl,
-            rel: 'noopener noreferrer'
-          },
-          {
-            text: 'GitHub',
-            link: githubUrl,
-            rel: 'noopener noreferrer'
-          }
-        ]
+        text: 'Matrix',
+        link: matrixUrl,
+        rel: 'noopener noreferrer'
+      },
+      {
+        text: 'GitHub',
+        link: githubUrl,
+        rel: 'noopener noreferrer'
       }
     ],
     sidebar: {
