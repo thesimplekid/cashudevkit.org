@@ -11,3 +11,6 @@ A reference implementation of a Cashu wallet built with the CDK. Demonstrates cl
 ## [Athenut](https://github.com/thesimplekid/athenut-mint)
 An open-source Cashu mint implementation built on the CDK with additional features for production use. Shows how to extend the core CDK functionality with custom requirements.
 
+## [Cashu Payment Backend](https://github.com/thesimplekid/cashu-payment-backend)
+A backend service that provides a simple HTTP API for merchants to generate and process Cashu token payments. It implements NUT-18 payment protocol and supports multiple mints and currencies (SAT and USD), making it flexible for various use cases.
+
