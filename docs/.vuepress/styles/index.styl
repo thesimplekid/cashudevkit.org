@@ -1,0 +1,78 @@
+/* For first feature only - replace the SVG with PNG */
+.features .feature:first-child svg {
+  display: block !important;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  background: url('/img/ecash-icon.png') no-repeat center center !important;
+  background-size: contain !important;
+}
+
+/* Hide the original SVG content */
+.features .feature:first-child svg * {
+  display: none !important;
+}
+
+/* Additional backup method */
+.features .feature:first-child .feature-icon {
+  background: url('/img/ecash-icon.png') no-repeat center center;
+  background-size: contain;
+}
+
+/* First feature - Private Ecash icon */
+.features .feature:nth-child(1) svg {
+  display: block !important;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  background: url('/img/ecash-icon.png') no-repeat center center !important;
+  background-size: contain !important;
+}
+
+/* Hide the original SVG content */
+.features .feature:nth-child(1) svg * {
+  display: none !important;
+}
+
+/* Second feature - Just Cashu icon */
+.features .feature:nth-child(2) svg {
+  display: block !important;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  background: url('/img/cashu-icon.png') no-repeat center center !important;
+  background-size: contain !important;
+}
+
+/* Hide the original SVG content */
+.features .feature:nth-child(2) svg * {
+  display: none !important;
+}
+
+/* Third feature - Scalable Payments icon */
+.features .feature:nth-child(3) svg {
+  display: block !important;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  background: url('/img/cashu-mint.png') no-repeat center center !important;
+  background-size: contain !important;
+}
+
+/* Hide the original SVG content */
+.features .feature:nth-child(3) svg * {
+  display: none !important;
+} 
+
+/* Fix for the header logo */
+.navbar .logo {
+  width: auto !important;
+  height: 45px !important;
+}
+
+/* Ensure DEV KIT text is visible */
+@media (min-width: $MQMobile + 1) {
+  .navbar .logo {
+    min-width: 125px !important;
+  }
+}
