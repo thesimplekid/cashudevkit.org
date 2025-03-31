@@ -125,6 +125,10 @@ module.exports = {
             {
               text: 'Adoption',
               link: '/adoption/'
+            },
+            {
+              text: 'Tutorials',
+              link: '/tutorials/getting-started'
             }
           ]
         },
