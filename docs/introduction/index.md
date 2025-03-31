@@ -6,21 +6,17 @@ You can build Cashu-enabled applications without needing to worry about getting 
 
 ## What is Cashu?
 
-Cashu is a free and open-source Chaumian ecash system that enables private, fast payments using Bitcoin and Lightning. It works based on blind signatures, where a mint signs a token without seeing it, allowing users to transact privately.
+Cashu is a free and open-source Chaumian ecash protocol built for Bitcoin that enables private, fast payments. Digital payments should be as natural as handing over cash in person, and Cashu brings this simplicity back to online payments.
+
+At its core, Cashu works through blind signatures, where a mint signs a token without seeing it, allowing users to transact privately. These digital bearer tokens are stored on a user's device, very similar to physical cash.
 
 Key features of Cashu include:
 - **Privacy**: The mint can't link withdrawals to deposits or track user spending
 - **Off-chain**: Transactions happen instantly without blockchain confirmation
 - **Lightning-compatible**: Easily fund or redeem to Lightning wallets
+- **Versatile**: Build applications such as wallets, web paywalls, or voucher systems
 
-## WHAT'S CASHU
-Digital payments should be as natural as handing over cash in person. Cashu brings simplicity back to online payments.
-
-Cashu is a free and open-source Chaumian ecash protocol built for Bitcoin. A digital bearer token that is stored on a user's device, very similar to physical cash. The Cashu protocol allows you to build applications such as wallets or voucher systems. Transactions are instant and nearly free.
-
-Cashu is an ecash protocol that is integrated with the Bitcoin protocol. An ecash system consists of two parts, the mint and the wallet. Anyone can run a mint for their application, be it a wallet, a web paywall, paid streaming services, or a voucher and rewards system for a super market.
-
-Ecash transactions between users or service providers respect the user's privacy. A mint does not store a database of user accounts and their activity which protects users from leaks or hacks and can provide stronger censorship resistance than classical payment systems.
+An ecash system consists of two parts: the mint and the wallet. Anyone can run a mint for their application, whether it's a wallet, paid streaming service, or a rewards system for a supermarket. Transactions between users or service providers are instant, nearly free, and respect the user's privacy.
 
 ## References
 
