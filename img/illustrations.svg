@@ -1,7 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" >
   <symbol id="customizable" viewBox="0 0 202 202">
     <path d="M1 1h200M1 34.334h200M1 67.666h200M1 101h200M1 134.333h200M1 167.667h200M1 201h200M1 1v200M34.333 1v200M67.667 1v200M101 1v200M134.333 1v200M167.667 1v200M201 1v200" stroke="var(--docs-border-color)" stroke-opacity=".4" stroke-width=".593"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M68.111 67.559 99.56 99.007V36.11L68.111 67.56ZM99.643 165.756v-63.447a1.33 1.33 0 0 1-.943-.391L67.643 70.861v62.895l32 32ZM64.448 131.006V70.778l-30.114 30.114 30.114 30.114ZM167.558 101l-64.781-64.781V165.78L167.558 101Z" fill="var(--docs-primary)"/>
+    <rect x="31" y="61" width="140" height="80" rx="15" fill="var(--docs-primary)"/>
+    <rect x="41" y="71" width="120" height="60" rx="8" stroke="var(--docs-primary-light)" stroke-width="2" fill="none"/>
+    <circle cx="101" cy="101" r="20" stroke="var(--docs-primary-light)" stroke-width="3" fill="none"/>
+    <path d="M101 88v26M95 94h12M95 108h12" stroke="var(--docs-primary-light)" stroke-width="3"/>
+    <circle cx="61" cy="101" r="5" fill="var(--docs-primary-light)"/>
+    <circle cx="141" cy="101" r="5" fill="var(--docs-primary-light)"/>
   </symbol>
   <symbol id="mobile" viewBox="0 0 202 202">
     <path d="M1 1h200M1 34.334h200M1 67.666h200M1 101h200M1 134.333h200M1 167.667h200M1 201h200M1 1v200M34.333 1v200M67.667 1v200M101 1v200M134.333 1v200M167.667 1v200M201 1v200" stroke="var(--docs-border-color)" stroke-opacity=".4" stroke-width=".593"/>
