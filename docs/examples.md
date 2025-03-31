@@ -14,3 +14,6 @@ An open-source Cashu mint implementation built on the CDK with additional featur
 ## [Cashu Payment Backend](https://github.com/thesimplekid/cashu-payment-backend)
 A backend service that provides a simple HTTP API for merchants to generate and process Cashu token payments. It implements NUT-18 payment protocol and supports multiple mints and currencies (SAT and USD), making it flexible for various use cases.
 
+## [Cashu-LSP](https://github.com/thesimplekid/cashu-lsp)
+A modular Lightning Service Provider (LSP) implementation that uses CDK to create NUT-18 payment requests for accepting Lightning Network channel payments, integrated with Lightning Development Kit (LDK) for node functionality.
+
