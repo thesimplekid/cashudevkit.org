@@ -24,9 +24,6 @@ Services that value user privacy can implement Cashu to offer payment options th
 - Person-to-person payments
 - Services where payment privacy is essential
 
-## Lightning Service Providers
-
-Lightning Service Providers (LSPs) can implement Cashu as an additional service to provide privacy-enhanced solutions for their users. This enables instant off-chain payments between users with the added privacy benefits of blind signatures.
 
 ## Web Applications
 

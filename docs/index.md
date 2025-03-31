@@ -14,8 +14,8 @@ features:
 - title: "Just Cashu"
   details: "Cashu Dev Kit focuses on implementing the Cashu protocol correctly. You choose your wallet, mint integration, and application features with our toolkit of best practices."
   image: "focus"
-- title: "Scalable Payments"
-  details: "Cashu transactions happen off-chain, enabling instant payments with no miner fees. Perfect for micropayments and frequent transactions without cluttering the blockchain."
+- title: "Fast Payments"
+  details: "Cashu transactions happen off-chain, enabling instant payments with no waiting for confirmations. Perfect for quick, everyday transactions when you need speed and convenience."
   image: "mobile"
 ---
 

@@ -38,6 +38,7 @@ const tutorialSidebar = [
     collapsable: false,
     children: [
       '/tutorials/getting-started',
+      '/tutorials/single-mint-wallet',
     ],
   }
 ]

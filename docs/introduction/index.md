@@ -6,12 +6,11 @@ You can build Cashu-enabled applications without needing to worry about getting 
 
 ## What is Cashu?
 
-Cashu is a free and open-source Chaumian ecash system that enables private, censorship-resistant payments using Bitcoin and Lightning. It works based on blind signatures, where a mint signs a token without seeing it, allowing users to transact privately.
+Cashu is a free and open-source Chaumian ecash system that enables private, fast payments using Bitcoin and Lightning. It works based on blind signatures, where a mint signs a token without seeing it, allowing users to transact privately.
 
 Key features of Cashu include:
 - **Privacy**: The mint can't link withdrawals to deposits or track user spending
 - **Off-chain**: Transactions happen instantly without blockchain confirmation
-- **Scalable**: No on-chain fees for transactions between users
 - **Lightning-compatible**: Easily fund or redeem to Lightning wallets
 
 ## WHAT'S CASHU
