@@ -17,3 +17,9 @@ A backend service that provides a simple HTTP API for merchants to generate and 
 ## [Cashu-LSP](https://github.com/thesimplekid/cashu-lsp)
 A modular Lightning Service Provider (LSP) implementation that uses CDK to create NUT-18 payment requests for accepting Lightning Network channel payments, integrated with Lightning Development Kit (LDK) for node functionality.
 
+## [Cashu Proxy](https://github.com/thesimplekid/cashu-proxy)
+A HTTP proxy service that requires Cashu tokens for access, enabling pay-per-request APIs and services. Cashu Proxy sits between clients and your HTTP services, requiring payment in the form of Cashu tokens in the X-Cashu header of the request before forwarding requests. This enables monetization of APIs and web services on a per-request basis with minimal integration effort.
+
+## [CDK Payment Processor](https://github.com/cashubtc/cdk/tree/main/crates/cdk-payment-processor)
+A payment processing library built on top of the CDK that implements the NUT-18 payment protocol. It provides a standardized way to handle Cashu token payments, making it easier to integrate Cashu payments into applications and services.
+

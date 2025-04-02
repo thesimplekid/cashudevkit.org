@@ -21,15 +21,9 @@ const docsSidebar = [
         ]
       },
       '/adoption',
+      '/api-reference/',
     ]
   },
-  {
-    title: 'API Reference',
-    collapsable: false,
-    children: [
-      ['https://docs.rs/cdk', 'Rust']
-    ],
-  }
 ]
 
 const tutorialSidebar = [
@@ -37,10 +31,17 @@ const tutorialSidebar = [
     title: 'Tutorials',
     collapsable: false,
     children: [
-      '/tutorials/getting-started',
-      '/tutorials/single-mint-wallet',
+      {
+        title: 'Getting Started',
+        path: '/tutorials/getting-started',
+      },
+      {
+        title: 'Single Mint Wallet',
+        path: '/tutorials/single-mint-wallet',
+      },
     ],
-  }
+  },
+  ['/api-reference/', 'API Reference'],
 ]
 
 // Blog will be added later
