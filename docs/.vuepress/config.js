@@ -21,25 +21,55 @@ const docsSidebar = [
         ]
       },
       '/adoption',
+      '/examples/',
       '/api-reference/',
     ]
   },
 ]
 
-const tutorialSidebar = [
+const examplesSidebar = [
   {
-    title: 'Tutorials',
+    title: 'Examples',
     collapsable: false,
     children: [
+      '/examples/',
       {
         title: 'Getting Started',
-        path: '/tutorials/getting-started',
+        collapsable: true,
+        children: [
+          ['/examples/getting-started', 'Getting Started'],
+          ['/examples/single-mint-wallet', 'Single Mint Wallet'],
+          ['/examples/basic-wallet', 'Basic Wallet'],
+          ['/examples/mint-token', 'Mint Token'],
+        ]
       },
       {
-        title: 'Single Mint Wallet',
-        path: '/tutorials/single-mint-wallet',
+        title: 'Payment Examples',
+        collapsable: true,
+        children: [
+          ['/examples/melt-token', 'Melt Token'],
+          ['/examples/p2pk', 'P2PK (Pay-to-Public-Key)'],
+        ]
       },
-    ],
+      {
+        title: 'BOLT12 Examples',
+        collapsable: true,
+        children: [
+          ['/examples/mint-token-bolt12', 'BOLT12 Mint Token'],
+          ['/examples/mint-token-bolt12-with-stream', 'BOLT12 with Streaming'],
+          ['/examples/mint-token-bolt12-with-custom-http', 'BOLT12 with Custom HTTP'],
+        ]
+      },
+      {
+        title: 'Advanced Examples',
+        collapsable: true,
+        children: [
+          ['/examples/proof-selection', 'Proof Selection'],
+          ['/examples/auth-wallet', 'Authentication Wallet'],
+          ['/examples/bip353', 'BIP-353 Human Readable Payments'],
+        ]
+      },
+    ]
   },
   ['/api-reference/', 'API Reference'],
 ]
@@ -92,8 +122,8 @@ module.exports = {
         link: '/adoption/'
       },
       {
-        text: 'Tutorials',
-        link: '/tutorials/getting-started'
+        text: 'Examples',
+        link: '/examples/'
       },
       // Blog will be added later
 
@@ -111,7 +141,7 @@ module.exports = {
     sidebar: {
       '/_blog/': blogSidebar,
       '/blog/': blogSidebar,
-      '/tutorials/': tutorialSidebar,
+      '/examples/': examplesSidebar,
       '/': docsSidebar,
     },
     footer: {
@@ -127,9 +157,10 @@ module.exports = {
               text: 'Adoption',
               link: '/adoption/'
             },
+
             {
-              text: 'Tutorials',
-              link: '/tutorials/getting-started'
+              text: 'Examples',
+              link: '/examples/'
             }
           ]
         },
